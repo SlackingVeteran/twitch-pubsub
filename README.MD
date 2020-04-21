@@ -1,4 +1,4 @@
-# Setup topics, auth and istall requirement
+# Setup topics, auth and install requirement
 * Open `webSocketClient.py` and edit value for `self.topics` and `self.auth_token` to include your channel id for channel you want to listen to and auth token for the channel
 * Install the requirement with `pip3 install websockets`
 
