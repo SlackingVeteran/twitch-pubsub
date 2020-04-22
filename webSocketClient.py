@@ -6,6 +6,7 @@ import json
 class WebSocketClient():
 
     def __init__(self):
+        # list of topics to subscribe to
         self.topics = ["channel-points-channel-v1.<ChannelID>"]
         self.auth_token = "<Auth_Token>"
         pass
