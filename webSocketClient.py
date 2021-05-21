@@ -16,7 +16,7 @@ class WebSocketClient():
            Connecting to webSocket server
            websockets.client.connect returns a WebSocketClientProtocol, which is used to send and receive messages
         '''
-        self.connection = await websockets.client.connect('wss://pubsub-edge.twitch.tv')
+        self.connection = await websockets.connect('wss://pubsub-edge.twitch.tv')
         if self.connection.open:
             print('Connection stablished. Client correcly connected')
             # Send greeting
